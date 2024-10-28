@@ -95,7 +95,7 @@ private fun CoinListItemPreview() {
             onClick = {},
             modifier = Modifier
                 .background(
-                    MaterialTheme.colorScheme.primaryContainer
+                    MaterialTheme.colorScheme.background
                 )
         )
     }
