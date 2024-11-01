@@ -28,6 +28,12 @@ class CoinListViewModel(
             CoinListState()
         )
 
+    fun onAction(action: CoinListAction) {
+        when (action) {
+            is CoinListAction.OnCoinClick -> TODO()
+        }
+    }
+
     private fun loadCoins() {
         viewModelScope.launch {
             _state.update {
