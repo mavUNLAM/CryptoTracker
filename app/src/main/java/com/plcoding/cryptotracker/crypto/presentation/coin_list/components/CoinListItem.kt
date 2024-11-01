@@ -20,7 +20,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.tooling.preview.PreviewLightDark
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -108,5 +107,5 @@ internal val previewCoin = Coin(
     symbol = "BTC",
     marketCapUsd = 123456789.76,
     priceUsd = 69427.15,
-    changePercent24H = 0.1
+    changePercent24Hr = 0.1
 ).toCoinUi()

@@ -11,5 +11,5 @@ data class CoinDto(
     @SerialName("symbol") val symbol: String,
     @SerialName("marketCapUsd") val marketCapUsd: Double,
     @SerialName("priceUsd") val priceUsd: Double,
-    @SerialName("changePercent24H") val changePercent24H: Double
+    @SerialName("changePercent24Hr") val changePercent24Hr: Double
 )
