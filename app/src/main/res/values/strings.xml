@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">CryptoTracker</string>
+    <string name="error_request_timeout">The request timed out.</string>
+    <string name="error_too_many_requests">Oops, it seems your quata has been exceed.</string>
+    <string name="error_no_internet_connection">Couldn\'t connect to server, pleace check your internet connection.</string>
+    <string name="error_unknown">Something went wrong. Please try again later.</string>
+    <string name="error_serialization">Coudn\'t serialize or deserialize data.</string>
 </resources>

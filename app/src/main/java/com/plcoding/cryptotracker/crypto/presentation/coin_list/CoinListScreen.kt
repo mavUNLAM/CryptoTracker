@@ -23,6 +23,8 @@ fun CoinListScreen(
     modifier: Modifier = Modifier,
     state: CoinListState
 ) {
+
+
     if (state.isLoading) {
         Box(
             modifier = modifier
